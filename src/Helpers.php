@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdminCore\Admin\Helpers;
+namespace Dedermus\Admin\Helpers;
 
-use OpenAdminCore\Admin\Admin;
-use OpenAdminCore\Admin\Auth\Database\Menu;
-use OpenAdminCore\Admin\Extension;
+use Dedermus\Admin\Admin;
+use Dedermus\Admin\Auth\Database\Menu;
+use Dedermus\Admin\Extension;
 
 class Helpers extends Extension
 {
@@ -29,13 +29,13 @@ class Helpers extends Extension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('helpers/terminal/database', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@database');
-            $router->post('helpers/terminal/database', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@runDatabase');
-            $router->get('helpers/terminal/artisan', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@artisan');
-            $router->post('helpers/terminal/artisan', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@runArtisan');
-            $router->get('helpers/scaffold', 'OpenAdminCore\Admin\Helpers\Controllers\ScaffoldController@index');
-            $router->post('helpers/scaffold', 'OpenAdminCore\Admin\Helpers\Controllers\ScaffoldController@store');
-            $router->get('helpers/routes', 'OpenAdminCore\Admin\Helpers\Controllers\RouteController@index');
+            $router->get('helpers/terminal/database', 'Dedermus\Admin\Helpers\Controllers\TerminalController@database');
+            $router->post('helpers/terminal/database', 'Dedermus\Admin\Helpers\Controllers\TerminalController@runDatabase');
+            $router->get('helpers/terminal/artisan', 'Dedermus\Admin\Helpers\Controllers\TerminalController@artisan');
+            $router->post('helpers/terminal/artisan', 'Dedermus\Admin\Helpers\Controllers\TerminalController@runArtisan');
+            $router->get('helpers/scaffold', 'Dedermus\Admin\Helpers\Controllers\ScaffoldController@index');
+            $router->post('helpers/scaffold', 'Dedermus\Admin\Helpers\Controllers\ScaffoldController@store');
+            $router->get('helpers/routes', 'Dedermus\Admin\Helpers\Controllers\RouteController@index');
         });
     }
 

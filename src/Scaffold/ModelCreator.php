@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdminCore\Admin\Helpers\Scaffold;
+namespace Dedermus\Admin\Helpers\Scaffold;
 
 use Illuminate\Support\Str;
 

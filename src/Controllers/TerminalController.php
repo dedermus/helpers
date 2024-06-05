@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdminCore\Admin\Helpers\Controllers;
+namespace Dedermus\Admin\Helpers\Controllers;
 
 use Exception;
 use Illuminate\Contracts\Support\Arrayable;
@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Str;
 use MongoDB\Driver\Command;
 use MongoDB\Driver\Manager;
-use OpenAdminCore\Admin\Layout\Content;
+use Dedermus\Admin\Layout\Content;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Input\ArgvInput;
 use Symfony\Component\Console\Output\Output;
