@@ -1,5 +1,5 @@
 {
-    "name": "open-admin-ext/helpers",
+    "name": "dedermus/helpers",
     "description": "Helpers extension for open-admin",
     "type": "library",
     "keywords": ["open-admin", "helpers"],
