@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdminCore\Admin\Helpers;
+namespace Dedermus\Admin\Helpers;
 
 use Illuminate\Support\ServiceProvider;
 
