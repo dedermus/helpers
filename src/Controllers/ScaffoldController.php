@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAdmin\Admin\Helpers\Controllers;
+namespace OpenAdminCore\Admin\Helpers\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\Str;
-use OpenAdmin\Admin\Auth\Database\Menu;
-use OpenAdmin\Admin\Helpers\Scaffold\MigrationCreator;
-use OpenAdmin\Admin\Helpers\Scaffold\ModelCreator;
-use OpenAdmin\Admin\Layout\Content;
+use OpenAdminCore\Admin\Auth\Database\Menu;
+use OpenAdminCore\Admin\Helpers\Scaffold\MigrationCreator;
+use OpenAdminCore\Admin\Helpers\Scaffold\ModelCreator;
+use OpenAdminCore\Admin\Layout\Content;
 
 class ScaffoldController extends Controller
 {

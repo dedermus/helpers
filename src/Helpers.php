@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenAdmin\Admin\Helpers;
+namespace OpenAdminCore\Admin\Helpers;
 
-use OpenAdmin\Admin\Admin;
-use OpenAdmin\Admin\Auth\Database\Menu;
-use OpenAdmin\Admin\Extension;
+use OpenAdminCore\Admin\Admin;
+use OpenAdminCore\Admin\Auth\Database\Menu;
+use OpenAdminCore\Admin\Extension;
 
 class Helpers extends Extension
 {
@@ -29,13 +29,13 @@ class Helpers extends Extension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('helpers/terminal/database', 'OpenAdmin\Admin\Helpers\Controllers\TerminalController@database');
-            $router->post('helpers/terminal/database', 'OpenAdmin\Admin\Helpers\Controllers\TerminalController@runDatabase');
-            $router->get('helpers/terminal/artisan', 'OpenAdmin\Admin\Helpers\Controllers\TerminalController@artisan');
-            $router->post('helpers/terminal/artisan', 'OpenAdmin\Admin\Helpers\Controllers\TerminalController@runArtisan');
-            $router->get('helpers/scaffold', 'OpenAdmin\Admin\Helpers\Controllers\ScaffoldController@index');
-            $router->post('helpers/scaffold', 'OpenAdmin\Admin\Helpers\Controllers\ScaffoldController@store');
-            $router->get('helpers/routes', 'OpenAdmin\Admin\Helpers\Controllers\RouteController@index');
+            $router->get('helpers/terminal/database', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@database');
+            $router->post('helpers/terminal/database', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@runDatabase');
+            $router->get('helpers/terminal/artisan', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@artisan');
+            $router->post('helpers/terminal/artisan', 'OpenAdminCore\Admin\Helpers\Controllers\TerminalController@runArtisan');
+            $router->get('helpers/scaffold', 'OpenAdminCore\Admin\Helpers\Controllers\ScaffoldController@index');
+            $router->post('helpers/scaffold', 'OpenAdminCore\Admin\Helpers\Controllers\ScaffoldController@store');
+            $router->get('helpers/routes', 'OpenAdminCore\Admin\Helpers\Controllers\RouteController@index');
         });
     }
 
