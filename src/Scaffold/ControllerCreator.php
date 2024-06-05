@@ -1,6 +1,6 @@
 <?php
 
-namespace Dedermus\Admin\Helpers\Scaffold;
+namespace OpenAdminCore\Admin\Helpers\Scaffold;
 
 class ControllerCreator
 {

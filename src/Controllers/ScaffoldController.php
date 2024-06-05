@@ -1,6 +1,6 @@
 <?php
 
-namespace Dedermus\Admin\Helpers\Controllers;
+namespace OpenAdminCore\Admin\Helpers\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

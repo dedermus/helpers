@@ -1,15 +1,15 @@
 <?php
 
-namespace Dedermus\Admin\Helpers\Controllers;
+namespace OpenAdminCore\Admin\Helpers\Controllers;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Dedermus\Admin\Facades\Admin;
-use Dedermus\Admin\Grid;
-use Dedermus\Admin\Layout\Content;
+use OpenAdminCore\Admin\Facades\Admin;
+use OpenAdminCore\Admin\Grid;
+use OpenAdminCore\Admin\Layout\Content;
 
 class RouteController extends Controller
 {
