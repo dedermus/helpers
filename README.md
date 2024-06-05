@@ -20,7 +20,7 @@ Helpers for Open-Admin
 ## Installation
 
 ```
-$ composer require open-admin-ext/helpers
+$ composer require odedermus/helpers
 ```
 Import menu items.
 ```
