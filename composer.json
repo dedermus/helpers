@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenAdmin\\Admin\\Helpers\\": "src/"
+            "Dedermus\\Admin\\Helpers\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "OpenAdmin\\Admin\\Helpers\\HelpersServiceProvider"
+                "Dedermus\\Admin\\Helpers\\HelpersServiceProvider"
             ]
         }
     }
