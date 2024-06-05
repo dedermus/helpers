@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\Str;
-use Dedermus\Admin\Auth\Database\Menu;
-use Dedermus\Admin\Helpers\Scaffold\MigrationCreator;
-use Dedermus\Admin\Helpers\Scaffold\ModelCreator;
-use Dedermus\Admin\Layout\Content;
+use OpenAdminCore\Admin\Auth\Database\Menu;
+use OpenAdminCore\Admin\Helpers\Scaffold\MigrationCreator;
+use OpenAdminCore\Admin\Helpers\Scaffold\ModelCreator;
+use OpenAdminCore\Admin\Layout\Content;
 
 class ScaffoldController extends Controller
 {
