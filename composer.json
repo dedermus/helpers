@@ -3,17 +3,17 @@
     "description": "Helpers extension for open-admin",
     "type": "library",
     "keywords": ["open-admin", "helpers"],
-    "homepage": "https://github.com/open-admin-org/helpers",
+    "homepage": "https://github.com/dedermus/helpers.git",
     "license": "MIT",
     "authors": [
         {
-            "name": "open-admin",
-            "email": "info@open-admin.org"
+            "name": "dedermus",
+            "email": "dedermus@yandex.ru"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "open-admin-org/open-admin": "~1.0"
+        "php": "~7.3|~8.0",
+        "dedermus/open-admin-core": "~1.0"
     },
     "autoload": {
         "psr-4": {
