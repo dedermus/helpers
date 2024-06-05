@@ -37,7 +37,7 @@ Licensed under [The MIT License (MIT)](LICENSE).
 
 Thanks
 ------------
-Ported from [laravel-admin-ext/helpers](https://github.com/laravel-admin-extensions/helpers)
+Ported from [dedermus/helpers](https://github.com/dedermus/helpers.git)
 
 Special thanks to z-song for original development
 
