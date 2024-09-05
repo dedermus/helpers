@@ -42,7 +42,7 @@ class RouteController extends Controller
                 $grid->action()->display(function ($uri) {
                     return preg_replace('/@.+/', '<code>$0</code>', $uri);
                 });
-                $grid->middleware()->badge('yellow');
+                $grid->middleware()->badge('primary');
 
                 $grid->disablePagination();
                 $grid->disableRowSelector();
@@ -160,11 +160,14 @@ class RouteController extends Controller
      *
      * @param \Illuminate\Routing\Route $route
      *
-     * @return string
+     * @return \Illuminate\Support\Collection
      */
     protected function getRouteMiddleware($route)
     {
         return collect($route->gatherMiddleware())->map(function ($middleware) {
+            if (is_string($middleware)) {
+                return $middleware;
+            }
             return $middleware instanceof \Closure ? 'Closure' : $middleware;
         });
     }
